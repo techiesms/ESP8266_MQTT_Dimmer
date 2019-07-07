@@ -14,9 +14,9 @@ void zcDetectISR();
 void dimTimerISR();
 
 
-#define WIFINAME "OKAY" //Your SSID
-#define WIFIPASS "kk009911" // Your Wifi Pass
-#define TOKEN "BBFF-4eoB0mUpfvAgV8RD9DRLTg1iE0Z5Kt" // Your Ubidots TOKEN
+#define WIFINAME "SSID" //Your SSID
+#define WIFIPASS "PASS" // Your Wifi Pass
+#define TOKEN "YOUR_TOKEN_NUMBER" // Your Ubidots TOKEN
 
 
 Ubidots client(TOKEN);
